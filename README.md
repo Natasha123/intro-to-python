@@ -27,6 +27,15 @@ In this workshop, we will cover the following:
  * Programming fosters creativity, reasoning, logic and problem solving. Learning to code can prompt you to think differently and attack problems from different angles. 
  * Python is used broadly in education, science, and industry.
  * Anaconda and jupyter notebook is a distribution of python that very easy to install.
+ 
+ ## Quickstart Guide: 
+ 
+ * Open Jupyter notebook
+ * Create a blank jupyter notebook or use the one we provided
+ * Click to edit a cell and make sure it is of type `code` not `markdown`
+ * type `print("Hello World!")`
+ * Click the play button or run the code with ctrl+enter
+ * You have just written your first program!
 
  ## Activity 2: Basic Programming Concepts
 
@@ -37,14 +46,37 @@ In this workshop, we will cover the following:
 
  * Topics introduced are:
      * Values, Variables, and Types
+       * We introduce variables, and data types. Variables hold data, and allow you to easily manipulate the data inside of the variable. Data typing is another fundamental concept that we introduce. Types tell the computer what operations can be performed on the data.
+       * More reading on data types: https://en.wikiversity.org/wiki/Python_Concepts/Basic_data_types
      * Operators
+       * Python has some in built operators which allow you to perform basic math on integers, and concatenate strings together
+       * e.g `5 + 5 = 10` and `'5' + '5' = '55'`
+       * if the data type is integer or float, 5 and 5 are added to equal ten. Quotation indicates to the computer that '5' is a string, and the + operator concatenates the two `5`'s together.
+       * More reading on operators: https://www.tutorialspoint.com/python/python_basic_operators.htm
+       * Basic python operators: https://www.tutorialspoint.com/python/python_basic_operators.htm
      * Functions
+       * Functions allow you to name chunks of code, reuse them repeatedly, and easily use code that other people have written.
+       * Functions: https://en.wikiversity.org/wiki/Python_Programming/Functions
      * Objects and Methods
-         * Lists
+       * We provide a high level explanation of objects and methods.
+     * Lists
+       * Lists are a way to store an array of variables inside of another variable. We can do lots of cool things with lists. 
+       * `cool_list = [1,2,3,4,5]`
+       * `print(cool_list[2:])`
+       * https://www.tutorialspoint.com/python/python_lists.htm
      * Input and Output
+       * You can ask the user for information to use inside of your program!
+       * `name = input()`
+       * print(name)
      * Control Structures
         * If statements
+          * If statements run a block of code if they are true. 
+          * `if (name == 'Codelikeagirl'):
+            * `print('cool!`)
+          * https://en.wikiversity.org/wiki/Python_Concepts/If_Statement
         * Loops
+           * Loops let you run some code over and over and over and over again!
+           * https://en.wikiversity.org/wiki/Python_Programming/Loops
 
  * Documentation/further reading:
      * Python documentation: https://docs.python.org/3/
